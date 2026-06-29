@@ -15,7 +15,7 @@ oil_price = 85.50      # USD per barrel
 
 
 # Calculation
-total_fluid= oil_rate + water_rate 
+total_fluid= oil_rate + water_rate
 water_cut = (water_rate / total_fluid) * 100
 daily_revenue = oil_rate * oil_price
 monthly_revenue = daily_revenue * 30
